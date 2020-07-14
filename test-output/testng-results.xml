@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="141771" started-at="2020-07-13T21:33:53 IST" finished-at="2020-07-13T21:36:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="141771" started-at="2020-07-13T21:33:53 IST" finished-at="2020-07-13T21:36:15 IST">
+      <class name="testpages.ValidatingTotalAmount">
+        <test-method status="PASS" signature="killAllnode()[pri:0, instance:testpages.ValidatingTotalAmount@76a3e297]" name="killAllnode" is-config="true" duration-ms="3021" started-at="2020-07-13T21:33:53 IST" finished-at="2020-07-13T21:33:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllnode -->
+        <test-method status="PASS" signature="ValidateAmount(java.lang.String)[pri:0, instance:testpages.ValidatingTotalAmount@76a3e297]" name="ValidateAmount" duration-ms="82274" started-at="2020-07-13T21:33:56 IST" data-provider="inputData" finished-at="2020-07-13T21:35:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shuv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAmount -->
+        <test-method status="PASS" signature="ValidateAmount(java.lang.String)[pri:0, instance:testpages.ValidatingTotalAmount@76a3e297]" name="ValidateAmount" duration-ms="56341" started-at="2020-07-13T21:35:18 IST" data-provider="inputData" finished-at="2020-07-13T21:36:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAmount -->
+      </class> <!-- testpages.ValidatingTotalAmount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
