@@ -63,7 +63,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.1.0</version>
+    <version>6.8</version>
 </dependency>
    
     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
